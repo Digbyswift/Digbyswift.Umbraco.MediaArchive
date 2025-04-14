@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Digbyswift.Umbraco.MediaArchive</Title>
+        <PackageProjectUrl>https://github.com/digbyswift/Digbyswift.Umbraco.MediaArchive</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/digbyswift/Digbyswift.Umbraco.MediaArchive</RepositoryUrl>
+        <PackageTags>c# umbraco</PackageTags>
+        <PackageVersion>1.0.0</PackageVersion>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Include="../../package-icon.png" Pack="true" PackagePath="" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="../../LICENSE" Pack="true" PackagePath="" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="../../README.md" Pack="true" PackagePath="" />
+    </ItemGroup>
+</Project>
